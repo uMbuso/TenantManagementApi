@@ -1,0 +1,143 @@
+# Build results
+bin/
+obj/
+out/
+artifacts/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ASP.NET Core
+wwwroot/
+node_modules/
+dist/
+bower_components/
+
+# Logs and temporary files
+*.log
+*.tlog
+*.pidb
+*.tmp
+*.temp
+*.svclog
+*.etl
+*.ncb
+*.dbmdl
+*.bak
+*.backup
+*.orig
+
+# **/Migrations/
+
+# Visual Studio Code
+.vscode/
+.history/
+*.code-workspace
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Compiled DLLs and executables
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.pdb
+
+# Packages (restore via NuGet)
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+
+# Secrets and config files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json.user
+*.secret.json
+.env
+
+# Docker
+docker-compose.override.yml
+*.pid
+*.seed
+docker-data/
+.env.docker
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ReSharper / Code analysis
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Publish output
+publish/
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+
+# Coverage tools
+coverage/
+lcov-report/
+
+# Backup files
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Azure
+.scm/
+.publishsettings
+*.azurePubxml
+PublishProfiles/
+
+# Rider & JetBrains cache
+.idea/
+*.sln.iml
+.idea_modules/
+
+# Python, if used for tooling
+__pycache__/
+*.pyc
+
+# SQL local database files
+*.mdf
+*.ldf
+*.ndf
+
+# JetBrains Rider plugin cache
+.idea/
+
+# Logs directory
+logs/
+
+# User-specific secrets (don’t commit!)
+secrets.json
+jwtsecret.txt
+
+# VS Auto-generated files
+Generated\ Files/
+
+# JetBrains Rider index files
+.idea/

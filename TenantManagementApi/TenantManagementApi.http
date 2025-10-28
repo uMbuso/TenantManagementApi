@@ -1,0 +1,6 @@
+@TenantManagementApi_HostAddress = http://localhost:5193
+
+GET {{TenantManagementApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
